@@ -1,5 +1,5 @@
 
-# umd4
+# umd
 
 #### Table of Contents
 
@@ -10,14 +10,14 @@
 
 ## Description
 
-Install UMD4 repositories.
+Install UMD4/UMD5 repositories.
 
 ## Setup
 
 This module is available on puppet forge:
 
 ```
-puppet module install cnafsd-umd4
+puppet module install cnafsd-umd
 ```
 
 ## Usage
@@ -25,9 +25,9 @@ puppet module install cnafsd-umd4
 Use this module as follow:
 
 ```
-include umd4
+include umd::umd5
 ```
 
 ## Limitations
 
-It works only on RedHat CentOS 7 distributions.
+It works only on RedHat CentOS 7 or Alma Linux 9 distributions.

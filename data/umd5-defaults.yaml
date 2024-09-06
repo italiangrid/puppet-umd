@@ -1,0 +1,3 @@
+---
+umd::umd5::enable_contrib: false
+umd::umd5::enable_testing: false

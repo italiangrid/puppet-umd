@@ -1,12 +1,15 @@
 {
-  "name": "cnafsd-umd4",
-  "version": "0.1.0",
+  "name": "cnafsd-umd",
+  "version": "1.0.1",
   "author": "cnafsd",
-  "summary": "Install UMD repositories",
+  "summary": "Install middleware repositories",
   "license": "Apache-2.0",
   "source": "https://github.com/italiangrid/puppet-umd",
   "dependencies": [
-
+    {
+      "name": "puppetlabs-yumrepo_core",
+      "version_requirement": ">= 2.1.0"
+    }
   ],
   "operatingsystem_support": [
     {
@@ -16,15 +19,15 @@
       ]
     },
     {
-      "operatingsystem": "OracleLinux",
+      "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "7"
+        "9"
       ]
     },
     {
-      "operatingsystem": "RedHat",
+      "operatingsystem": "AlmaLinux",
       "operatingsystemrelease": [
-        "7"
+        "9"
       ]
     },
     {
@@ -37,10 +40,10 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 5.5.0 < 6.0.0"
+      "version_requirement": ">= 7.0.0 < 8.0.0"
     }
   ],
-  "pdk-version": "1.10.0",
-  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git#1.10.0",
-  "template-ref": "1.10.0-0-gbba9ac3"
+  "pdk-version": "3.0.0",
+  "template-url": "pdk-default#3.0.0",
+  "template-ref": "tags/3.0.0-0-g056e50d"
 }
